@@ -1,5 +1,5 @@
 To pre-compile test.h, execute "g++ -O2 -Wall -x c++-header test.h -o test.h.gch"
-To compile test file, execute "g++ -O2 -Wall -include test.h primitivehashmap.h  main.cpp -o test"
+To compile test file, execute "g++ -O2 -Wall -include test.h primitivehashmap.h  main.cpp"
 To run test file, execute "./test"
 
 The table is built using C++ primitive. Optimization is done by choosing a bucketsize
